@@ -1,5 +1,4 @@
 (function () {
-  // let url = 'https://www.mikecaines.com/3inarow/sample.json'; // url to pull single puzzle
   let url = 'https://www.mikecaines.com/3inarow/puzzle.php'; // url to pull single puzzle
   let gameJsonData;
   let emptyState = "#EDECE7";
