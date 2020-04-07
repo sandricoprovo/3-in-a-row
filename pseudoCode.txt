@@ -1,0 +1,37 @@
+1. Start Program
+
+2. Display Grid of 3-in-a-row game onto page
+  - go through rows and add each square to table
+  - use data- attribute to reference cell to data
+  - Add colors 
+    - empty = white
+    - color 1 = blue
+    - color 2 = pink
+  - status codes and colors
+    - 0 = grey
+    - 1 = blue
+    - 2 = pink
+
+3. Add click event to squares INDIVIDUALLY
+  - while adding a square to the grid add an addEventListener() to check for click event
+    - on click:
+      - change currentState
+      - change color
+
+4. Add in check status button feature
+  - use function
+  - loop through the JSON Data and compare currentState to correctState
+    - if a match then correct
+    - if not a match then add in 🥺 emoji inside
+
+5. Add in wrong box checking checkbox
+  - add in checkbox
+  - use function  
+    - loop through json data  
+      - if a match then correct
+      - if not a match then add in 🥺 emoji inside
+      - must persist
+
+6. Add in an innovative feature ()
+
+- End Program 
